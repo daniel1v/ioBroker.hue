@@ -1,8 +1,12 @@
 {
     "common": {
         "name": "hue",
-        "version": "2.5.0",
+        "version": "2.5.1",
         "news": {
+            "2.5.1": {
+                "en": "brightness change on light group: only apply changes to already turned on lights. if no light is on, turn on all the lights and apply brightness changes."
+            }
+
             "2.5.0": {
                 "en": "implemented a mechanic to prevent regular polling of recently changed state",
                 "de": "Es wurde eine Mechanik implementiert, um ein regelmäßiges Abfragen des zuletzt geänderten Zustands zu verhindern",
