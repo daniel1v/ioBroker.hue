@@ -145,7 +145,7 @@ function startAdapter(options) {
                         case 'bri':
                             alls[iddp] = idStates[idState].val;
                             ls[iddp] = idStates[idState].val;
-                            if (idStates[idState].ack && idStates[idState].val > 0) lampOn = true;
+                            if (idStates[idState].ack && idStates[idState].val > 0 && idStates[idState].anyOn !== true) lampOn = true;
                             break;
                         case 'alert':
                             alls[iddp] = idStates[idState].val;
